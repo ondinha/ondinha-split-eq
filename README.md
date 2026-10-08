@@ -35,7 +35,7 @@ Built in as host programs (your DAW's preset menu):
 
 ## Download and install
 
-**[Download the latest release](https://github.com/ondinha/ondinha-split-eq/releases/latest)** (macOS, Apple Silicon and Intel) or get it from the [product page](https://ondinha.app/plugins/split-eq).
+**[Download the latest release](https://github.com/ondinha/ondinha-split-eq/releases/latest)** (macOS, Windows, Linux) or get it from the [product page](https://ondinha.app/plugins/split-eq).
 
 **macOS:** copy `Ondinha Split EQ.vst3` to `~/Library/Audio/Plug-Ins/VST3` and `Ondinha Split EQ.component` to `~/Library/Audio/Plug-Ins/Components`. The plug-ins aren't notarized yet, so clear the download flag once:
 
@@ -45,9 +45,13 @@ xattr -dr com.apple.quarantine ~/Library/Audio/Plug-Ins/VST3/"Ondinha Split EQ.v
 
 Then rescan plug-ins in your DAW.
 
+**Windows:** copy the `Ondinha Split EQ.vst3` folder to `C:\Program Files\Common Files\VST3`, then rescan.
+
+**Linux:** copy the `Ondinha Split EQ.vst3` folder to `~/.vst3`, then rescan.
+
 | Format | Platform |
 |---|---|
-| VST3 | macOS |
+| VST3 | macOS (Apple Silicon + Intel), Windows 10+ (64-bit), Linux (x64) |
 | Audio Unit (AU) | macOS |
 
 Works in any VST3 or AU host: Ableton Live, Logic Pro, Reaper, Bitwig Studio, Cubase, Studio One, FL Studio and others.
