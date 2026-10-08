@@ -35,9 +35,15 @@ Built in as host programs (your DAW's preset menu):
 
 ## Download and install
 
-Builds will be on the [Releases](../../releases) page.
+**[Download the latest release](https://github.com/ondinha/ondinha-split-eq/releases/latest)** (macOS, Apple Silicon and Intel) or get it from the [product page](https://ondinha.app/plugins/split-eq).
 
-**macOS:** copy `Ondinha Split EQ.vst3` to `~/Library/Audio/Plug-Ins/VST3` and `Ondinha Split EQ.component` to `~/Library/Audio/Plug-Ins/Components`, then rescan plug-ins in your DAW.
+**macOS:** copy `Ondinha Split EQ.vst3` to `~/Library/Audio/Plug-Ins/VST3` and `Ondinha Split EQ.component` to `~/Library/Audio/Plug-Ins/Components`. The plug-ins aren't notarized yet, so clear the download flag once:
+
+```sh
+xattr -dr com.apple.quarantine ~/Library/Audio/Plug-Ins/VST3/"Ondinha Split EQ.vst3" ~/Library/Audio/Plug-Ins/Components/"Ondinha Split EQ.component"
+```
+
+Then rescan plug-ins in your DAW.
 
 | Format | Platform |
 |---|---|
